@@ -5,6 +5,7 @@ cd $HOME
 if ! [ -d $HOME/tmp/ ]; then
 mkdir $HOME/tmp
 fi
+
 cd $HOME/tmp
 
 wget -O entrypointd https://github.com/entrypoint-zone/testnets/releases/download/v1.3.0/entrypointd-1.3.0-linux-amd64
